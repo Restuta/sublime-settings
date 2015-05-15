@@ -156,7 +156,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#a082bd</string>
+          <string>#9B703F</string>
         </dict>
       </dict>
       <dict>
@@ -216,6 +216,193 @@
           <string>#eb9a8d</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>string.quoted.double</string>
+        <key>scope</key>
+        <string>string.quoted.double</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9D3D45</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>meta.delimiter.comma.js</string>
+        <key>scope</key>
+        <string>meta.delimiter.comma.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#878F97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>meta.group.braces.curly string.quoted.single</string>
+        <key>scope</key>
+        <string>meta.group.braces.curly string.quoted.single</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eb9a8d</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>entity.name.class.js</string>
+        <key>scope</key>
+        <string>entity.name.class.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#93c763</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>function call</string>
+        <key>scope</key>
+        <string>meta.function-call entity.name.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>function call with args</string>
+        <key>scope</key>
+        <string>meta.function-call.function.with-arguments.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>js brace</string>
+        <key>scope</key>
+        <string>meta.brace.curly.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>js paren</string>
+        <key>scope</key>
+        <string>meta.brace.round.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>storage.type.function.js</string>
+        <key>scope</key>
+        <string>storage.type.function.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a082bd</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>meta.group.braces.square, punctuation.destructuring</string>
+        <key>scope</key>
+        <string>meta.group.braces.square string.quoted.single, punctuation.destructuring</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eb9a8d</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword.control.flow</string>
+        <key>scope</key>
+        <string>keyword.control.flow</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#538CC6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword.control.conditional</string>
+        <key>scope</key>
+        <string>keyword.control.conditional</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#678cb1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword.control.loop</string>
+        <key>scope</key>
+        <string>keyword.control.loop</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#678cb1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword operator</string>
+        <key>scope</key>
+        <string>keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4C7094</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>js object</string>
+        <key>scope</key>
+        <string>variable.other.object.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#36A698</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>support.function</string>
+        <key>scope</key>
+        <string>support.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a082bd</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Puncation Termination</string>
+        <key>scope</key>
+        <string>punctuation.terminator, punctuation.separator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#878F97</string>
+        </dict>
+      </dict>
       <!-- generic entities -->
       <dict>
         <key>name</key>
@@ -225,7 +412,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffcd22ff</string>
+          <string>#ffcd22</string>
         </dict>
       </dict>
       <dict>
@@ -253,6 +440,7 @@
       <!--  
             background:   #182229
             white:        #e0e2e4
+            dim:          #878F97
             dark-green:   #5A8731
             dark-violet:  #555588
             violet:       #B477FF
@@ -295,7 +483,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#678cb1ff</string>
+          <string>#678cb1</string>
         </dict>
       </dict>
       <dict>
@@ -306,7 +494,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#eb9a8dff</string>
+          <string>#eb9a8d</string>
         </dict>
       </dict>
       <dict>
@@ -317,7 +505,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#B477FF</string>
+          <string>#678cb1</string>
         </dict>
       </dict>
       <dict>
@@ -560,7 +748,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ffffffff</string>
+          <string>#e0e2e4</string>
         </dict>
       </dict>
       <dict>
