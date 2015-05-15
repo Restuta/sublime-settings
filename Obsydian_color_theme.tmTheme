@@ -383,6 +383,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Variable.Parameter</string>
+        <key>scope</key>
+        <string>variable.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#36A698</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>support.function</string>
         <key>scope</key>
         <string>support.function</string>
@@ -401,6 +412,18 @@
         <dict>
           <key>foreground</key>
           <string>#878F97</string>
+        </dict>
+      </dict>
+      <dict>
+        <!--  built-in functions -->
+        <key>name</key>
+        <string>♦ Support.function</string>
+        <key>scope</key>
+        <string>support.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9B703F</string>
         </dict>
       </dict>
       <!-- generic entities -->
@@ -873,17 +896,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>♦ Support.function</string>
-        <key>scope</key>
-        <string>support.function</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#678cb1ff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>♦ Support.constant</string>
         <key>scope</key>
         <string>support.constant</string>
@@ -1170,17 +1182,6 @@
         <string>keyword.operator</string>
         <key>settings</key>
         <dict/>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Variable.Parameter</string>
-        <key>scope</key>
-        <string>variable.parameter</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#e0e2e4ff</string>
-        </dict>
       </dict>
       <dict>
         <key>name</key>
