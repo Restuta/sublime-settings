@@ -69,19 +69,17 @@
           <string>#555588</string>
         </dict>
       </dict>
-
       <dict>
-            <key>name</key>
-            <string>js null</string>
-            <key>scope</key>
-            <string>constant.language.null.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#555588</string>
-            </dict>
+        <key>name</key>
+        <string>js null</string>
+        <key>scope</key>
+        <string>constant.language.null.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#555588</string>
         </dict>
-
+      </dict>
       <dict>
         <key>name</key>
         <string>js variable dollar</string>
@@ -92,7 +90,7 @@
           <key>fontStyle</key>
           <string>italic</string>
           <key>foreground</key>
-          <string>#FF9122</string>
+          <string>#36A698</string>
         </dict>
       </dict>
       <dict>
@@ -106,21 +104,120 @@
           <string>#e0e2e4</string>
         </dict>
       </dict>
-
       <dict>
-            <key>name</key>
-            <string>keyword operator</string>
-            <key>scope</key>
-            <string>keyword.operator</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#4C7094</string>
-            </dict>
-        </dict>
-
-        <!-- generic entities -->
+        <key>name</key>
+        <string>keyword operator</string>
+        <key>scope</key>
+        <string>keyword.operator</string>
+        <key>settings</key>
         <dict>
+          <key>foreground</key>
+          <string>#4C7094</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function arg</string>
+        <key>scope</key>
+        <string>meta.function.argument, variable.parameter, meta.parens.c</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#77FF11</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>js variable readwrite</string>
+        <key>scope</key>
+        <string>meta.initialization, variable.other.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#36A698</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>variable.language</string>
+        <key>scope</key>
+        <string>variable.language</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#333</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>variable.language.prototype</string>
+        <key>scope</key>
+        <string>variable.language.prototype</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a082bd</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
+        <key>scope</key>
+        <string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#220011</string>
+          <key>foreground</key>
+          <string>#93c763</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>storage.type.class.js, storage.type.extends.js</string>
+        <key>scope</key>
+        <string>storage.type.class.js, storage.type.extends.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#678cb1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>entity.name.method.js</string>
+        <key>scope</key>
+        <string>entity.name.method.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>meta.method.js</string>
+        <key>scope</key>
+        <string>meta.method.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e0e2e4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>string.quoted.single</string>
+        <key>scope</key>
+        <string>string.quoted.single</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eb9a8d</string>
+        </dict>
+      </dict>
+      <!-- generic entities -->
+      <dict>
         <key>name</key>
         <string>constant</string>
         <key>scope</key>
@@ -153,13 +250,24 @@
           <string>#678cb1</string>
         </dict>
       </dict>
-      <!--  white:        #e0e2e4
+      <!--  
+            background:   #182229
+            white:        #e0e2e4
             dark-green:   #5A8731
             dark-violet:  #555588
-            violet:       #AE67E4
+            violet:       #B477FF
+                          #a082bd
             blue:         #678cb1
             dark-blue:    #4C7094
+            bright_blue:  #3387CC
             green:        #93c763
+            cyan:         #36A698
+
+            pink:         #eb9a8d
+            dark-pink:    #9D3D45
+            orange:       #C56D13
+
+            brown:        #9B703F
             -->
       <!-- END custom added for JS.Next -->
       <dict>
@@ -177,6 +285,40 @@
         <string/>
         <key>settings</key>
         <dict/>
+      </dict>
+      <dict>
+        <!-- var const class function-->
+        <key>name</key>
+        <string>Storage</string>
+        <key>scope</key>
+        <string>storage</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#678cb1ff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String</string>
+        <key>scope</key>
+        <string>string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eb9a8dff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Support</string>
+        <key>scope</key>
+        <string>support</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#B477FF</string>
+        </dict>
       </dict>
       <dict>
         <key>name</key>
@@ -408,39 +550,6 @@
           <string>#5f5a60ff</string>
           <key>fontStyle</key>
           <string>italic</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Storage</string>
-        <key>scope</key>
-        <string>storage</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#678cb1ff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>String</string>
-        <key>scope</key>
-        <string>string</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eb9a8dff</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Support</string>
-        <key>scope</key>
-        <string>support</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#a082bdff</string>
         </dict>
       </dict>
       <dict>
