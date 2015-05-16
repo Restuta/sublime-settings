@@ -88,9 +88,9 @@
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
-          <string>italic</string>
+          <string></string>
           <key>foreground</key>
-          <string>#36A698</string>
+          <string>#5A8731</string>
         </dict>
       </dict>
       <dict>
@@ -134,7 +134,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#36A698</string>
+          <string>#e0e2e4</string>
         </dict>
       </dict>
       <dict>
@@ -378,7 +378,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#36A698</string>
+          <string>#e0e2e4</string>
         </dict>
       </dict>
       <dict>
@@ -426,6 +426,7 @@
           <string>#9B703F</string>
         </dict>
       </dict>
+
       <!-- generic entities -->
       <dict>
         <key>name</key>
