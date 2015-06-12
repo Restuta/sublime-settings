@@ -1,0 +1,23 @@
+{
+	"Seti_ClosedFolder_same": true,
+	"Seti_tabs_small": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Obsydian_color_theme.tmTheme",
+	"dictionary": "Packages/Dictionaries/Russian.dic",
+	"font_face": "Menlo",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"CSS",
+		"Markdown"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
