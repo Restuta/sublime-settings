@@ -18,6 +18,13 @@
 	"line_padding_top": 0,
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+
+	//Seti UI settings:
+	"theme": "Seti_orig.sublime-theme",
+	"Seti_tabs_small": true,                // tabs height = 35
+	"Seti_orange_label": false,              // change label color to orange
+	"Seti_orange_button": true,             // change blue tab buttons to orange
+	"Seti_SB_med": true,                    // scrollbars width / height = 6
+	"Seti_sb_small_padding": true,          // sidebar entries padding = 3
 }
