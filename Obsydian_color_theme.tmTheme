@@ -224,7 +224,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#E37463</string>
+          <string>#eb9a8d</string>
         </dict>
       </dict>
       <dict>
@@ -476,7 +476,10 @@
             cyan:         #36A698
 
             pink:         #eb9a8d
+            darker-pink:  #E37463
             dark-pink:    #9D3D45
+
+                          
             orange:       #C56D13
 
             brown:        #9B703F
